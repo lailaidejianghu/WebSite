@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="zh_cn">
+    <head>
+        <meta content="text/html; charset=utf-8"/>
+        <script src="../asserts/script/signup.js"></script>
+        <link href="../asserts/css/style.css" type="text/css" rel="stylesheet"/>
+        <title>testTitle</title>
+     </head>
+    <body>
+        <h1>TestHeader</h1>
+        <div id="div-signup">
+        <form action="/" method="post">
+            <label>账号</label>
+            <input type="text" id="tx-user" name="user" value="手机/邮箱" onfocus="inputOnfocus(this.id)" onchange="userChange(this.id)" tabindex="1"><br><br>
+            <label>密码</label>
+            <input type="text"  id="tx-pwd" name="pwd" value="字母/数字/符号" onfocus="inputOnfocus(this.id)" onchange="pwdChange(this.id)" tabindex="2"><br><br>
+            <input type="submit" id="tx-submit" name="submit" value="登陆"  tabindex="3"><br>
+        </form>
+        </div>
+
+        <div id="div-side">
+            <ul>
+                <li><a href="/signup">登陆</a></li>
+                <li><a href="/regist">注册</a></li>
+                <li><a href="/passwordgetback">账号找回</a></li>
+            </ul> 
+
+        </div>
+        <div id="div-footer">
+           <ul>
+                <a href="aboutus.html">关于我们</a>
+                <a href="contactwithus.html">联系我们</a>
+           </ul>
+        </div>
+</body>
+</html>

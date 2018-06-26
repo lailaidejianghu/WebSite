@@ -1,0 +1,12 @@
+{{template "header"}}
+        <div id="div-regist">
+            <form action="/" method="post">
+                <label>账号</label>
+                <input type="text" id="tx-user" name="user" value="手机/邮箱" onfocus="inputOnfocus(this.id)" onchange="userChange(this.id)" tabindex="1"><br><br>
+                <label>密码</label>
+                <input type="text" id="tx-pwd" name="pwd" value="字母/数字/符号" onfocus="inputOnfocus(this.id)" onchange="pwdChange(this.id)" tabindex="2"><br><br>
+                <input type="submit" id="tx-submit" name="submit" value="登陆"  tabindex="3"><br>
+            </form>
+        </div>
+{{template "sider"}}
+{{template "footer"}}

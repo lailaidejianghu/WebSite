@@ -1,0 +1,37 @@
+{{define "header"}}
+<!DOCTYPE html>
+<html lang="zh_cn">
+    <head>
+        <meta content="text/html; charset=utf-8"/>
+        <script src="/asserts/script/signup.js" type="text/javascript"></script>
+        <link href="/asserts/css/style.css" type="text/css" rel="stylesheet">
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        <div id="div-common">
+            <h1>{{.Name}}</h1>
+{{end}}
+
+
+{{define "sider"}}
+        </div>
+        <div id="div-side">
+            <ul>
+                <li><a href="/signup">登陆</a></li>
+                <li><a href="/regist">注册</a></li>
+                <li><a href="/passwordgetback">账号找回</a></li>
+            </ul> 
+
+        </div>
+{{end}}
+
+{{define "footer"}}
+        <div id="div-footer">
+            <ul>
+                    <a href="/aboutus">关于我们</a>
+                    <a href="/contactwithus">联系我们</a>
+            </ul>
+        </div>
+    </body>
+</html>
+{{end}}
