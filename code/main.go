@@ -63,7 +63,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 }
 
 func passwordgetback(w http.ResponseWriter, r *http.Request) {
-	err := tpl.ExecuteTemplate(w, "passwordgetback.html", PageInfo{"passwordGetback", "passwordGetback"})
+	err := tpl.ExecuteTemplate(w, "passwordgetback.html", PageInfo{"PasswordGetback", "PasswordGetback"})
 	errCheck(w, err)
 }
 
